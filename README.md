@@ -1,4 +1,4 @@
-# Creating printf function
+# _printf function
 Collaboratory project with Nzemeka Akponor to create our own printf function
 
 # Collaborators 
