@@ -174,6 +174,7 @@ int write_unsgnd(int is_negative, int ind,
 
 	if ((flags & F_ZERO) && !(flags & F_MINUS))
 		padd = '0';
+
 	if (width > length)
 	{
 		for (i = 0; i < width - length; i++)
@@ -249,3 +250,4 @@ int write_pointer(char buffer[], int ind, int length,
 		buffer[--ind] = extra_c;
 	return (write(1, &buffer[ind], BUFF_SIZE - ind - 1));
 }
+
